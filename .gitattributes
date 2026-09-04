@@ -1,0 +1,15 @@
+# Do not edit manually
+# Text file normalization
+# Normalize line endings
+go.sum linguist-generated
+*.bat text eol=crlf
+public/* linguist-vendored
+vendor/* linguist-vendored
+
+app/*.tsx linguist-detectable
+*.html linguist-vendored
+*.png binary
+*.json linguist-detectable=false
+
+yarn.lock linguist-generated
+*.tsx linguist-detectable
